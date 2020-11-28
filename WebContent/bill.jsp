@@ -27,7 +27,7 @@ try
 			{
 	
 %>
-<h3>Online shopping Bill (BTech Days)</h3>
+<h3>Rumah Sandyamenang</h3>
 <hr>
 <div class="left-div"><h3>Name: <%=rs2.getString(1) %> </h3></div>
 <div class="right-div-right"><h3>Email:  <%out.println(email); %> </h3></div>
@@ -68,9 +68,9 @@ try
   %>
   <tr>
     <td><%out.println(sno); %></td>
-    <td><%=rs1.getString(17) %></td>
-    <td><%=rs1.getString(18) %></td>
-    <td><%=rs1.getString(19) %></td>
+    <td><%=rs1.getString(2) %></td>
+    <td><%=rs1.getString(4) %></td>
+    <td><%=rs1.getString(1) %></td>
     <td><%=rs1.getString(3) %></td>
      <td><%=rs1.getString(5) %></td>
   </tr>
